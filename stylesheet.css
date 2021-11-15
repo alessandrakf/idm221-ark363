@@ -64,7 +64,7 @@ p {
     line-height: 30px;
 }
 
-h1 {
+/*h1 {
     margin-top: 25px;
     margin-right: 100px;
     margin-bottom: 10px;
@@ -98,7 +98,7 @@ p {
     margin-bottom: 10px;
     margin-left: 100px;
   }
-
+*/
 a { 
     text-decoration: none;
     color: #F9A78F;
@@ -152,9 +152,9 @@ a {
 }
 
 .aboutme {
-    width: 30%;
-    background-color: #FBE2DA;
-    border: 1px solid #FBE2DA;
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
     padding-right: 2rem;
     margin: 2rem auto;
 }
@@ -164,20 +164,29 @@ a {
     left: 32%;
 }
 
+.aboutme a {
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    font-family: Playfair;
+}
+
 .aboutmehead {
+    width: 300px;
+    height: 30px;
+    background-color: #FBE2DA;
     padding-top: 1.5rem;
     padding-bottom: .5;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .aboutmehead h3 {
-    font-family: Playfair_Display8
+    font-family: Playfair;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
 }
 
 .aboutmeimage {
-    margin-right: 100px;
-    margin-left: 100px;
     padding-top: 1rem;
     text-align: center;
 }
@@ -191,13 +200,33 @@ width: 300px;
 }
 
 
-.readmore {
+.aboutmereadmore {
     margin-top: 1rem;
-    margin-right: 100px;
     margin-bottom: 1rem;
-    margin-left: 100px;
     padding-bottom: 2rem;
     text-align: center;
+    background-color: #FBE2DA;
+    color: white;
+    width: 300px;
+  }
+
+.aboutmereadmore a {
+    font-size: 20px;
+    font-family: Playfair;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+}
+
+.aboutmereadmore a:hover {
+    color: #FDC383;  
+}
+
+
+.readmore {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    width: 300px;
   }
 
 .readmore a {
