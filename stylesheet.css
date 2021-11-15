@@ -21,6 +21,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Playfair';
+    src: url('fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
 body {
     background-color: #f9f9f9;
     color: #171717;
@@ -58,37 +70,73 @@ p {
 }
 
 h1 {
-    margin-top: 10px;
-    margin-right: 300px;
+    margin-top: 25px;
+    margin-right: 100px;
     margin-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
 
 h2 {
     margin-top: 25px;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-bottom: 25px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
 
 h3 {
     margin-top: 25px;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
 
 h4 {
     margin-top: 25px;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
 
 p {
     margin-top: 25px;
-    margin-right: 300px;
+    margin-right: 100px;
     margin-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
 
+a { 
+    text-decoration: none;
+    color: #F9A78F;
+ }
+
+ /* a.hover, a.active {
+     text-decoration: none;
+     color: #FDC383;
+ } */
+
+.wrapper {
+    margin: 1em;
+    padding: 1em;
+    border: 1em;
+}
+
+.topnav {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin: .5em, 1em, .5em;
+    padding: .5em, 1em, .5em;
+}
+
+ .topnav a {
+    float: left; 
+    width: 100%;
+    text-align: center;
+     color: #E39F76;
+     text-decoration: none;
+     font-size: 17px;
+     letter-spacing: .02rem;
+ }
+
+ .topnav a:hover {
+     color: #FDC383;
+ }
