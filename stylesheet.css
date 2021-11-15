@@ -28,11 +28,6 @@
     font-style: normal;
 }
 
-img {
-    height: auto;
-    width: 100%;
-}
-
 body {
     background-color: #f9f9f9;
     color: #171717;
@@ -41,7 +36,7 @@ body {
 
 h1 {
     font-family: 'Amiri';
-    font-size: 60px;
+    font-size: 50px;
     line-height: 48px;
 }
 
@@ -65,7 +60,7 @@ h4 {
 
 p {
     font-family: 'Amiri';
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
 }
 
@@ -115,16 +110,23 @@ a {
  } */
 
 .wrapper {
-    margin: 1em;
-    padding: 1em;
-    border: 1em;
+    margin: 5rem;
+    padding: 5rem;
+    border: 5rem;
+}
+
+.logo {
+    margin: .5em, 1em, .5em;
+    padding: .5em, 1em, .5em;
+    text-align: center;
+    width: 100%;
 }
 
 .topnav {
     background-color: #f9f9f9;
     overflow: hidden;
     margin: .5em, 1em, .5em;
-    padding: .5em, 1em, .5em;
+    padding: 1em, 1em, .5em;
 }
 
  .topnav a {
@@ -140,3 +142,51 @@ a {
  .topnav a:hover {
      color: #FDC383;
  }
+
+.readmore p {
+    font-size: 20;
+}
+
+.readmore a:hover {
+    color: #FDC383;  
+}
+
+.aboutme {
+    width: 40%;
+    background-color: #FBE2DA;
+    border: 1px solid #FBE2DA;
+    padding-right: 2rem;
+    margin: 2rem auto;
+}
+
+.aboutme {
+    position: relative;
+    left: 75%;
+}
+
+.aboutmehead {
+    padding-top: 1.5rem;
+    padding-bottom: .5;
+    text-align: center;
+}
+
+.aboutmeimage {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.Hi {
+    text-align: center;
+}
+
+
+.readmore {
+    margin-top: 1rem;
+    margin-right: 100px;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
