@@ -207,3 +207,8 @@ a.aboutmereadmore:hover {
 .homeblogtitle h2 {
     font-size: 2rem;
 }
+
+.footer {
+    background-color: #f2f2f2;
+    margin-top: 1rem;
+}
