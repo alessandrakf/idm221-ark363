@@ -58,7 +58,6 @@ h2 {
 h3 {
     font-family: 'Roboto';
     font-size: 25px;
-    line-height: 25px;
 }
 
 h4 {
@@ -79,8 +78,8 @@ a {
  }
 
 .wrapper {
-    margin: 2rem;
-    border: 2rem;
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1.15rem;
 }
 
 .logo {
@@ -100,7 +99,7 @@ a {
     margin: 0 8px;
     text-align: center;
      color: #E39F76;
-     font-size: 25px;
+     font-size: 1.25rem;
      letter-spacing: .02rem;
  }
 
@@ -130,11 +129,20 @@ a {
 }
 
 .aboutmehead {
-    height: 30px;
-    background-color: #FBE2DA;
-    padding-top: 1.5rem;
-    padding-bottom: .5;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
     text-align: center;
+    background-color: #FBE2DA;
+    color: white;
+}
+
+.aboutmehead a {
+    font-size: 20px;
+    font-family: Playfair;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
 }
 
 .aboutmehead h3 {
@@ -153,7 +161,6 @@ a {
 }
 
 .aboutmetext p {
-width: 300px;
 font-size: 20px;
 line-height: 1.5rem;
 }
@@ -162,9 +169,10 @@ line-height: 1.5rem;
 .aboutmereadmore {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
-    background-color: #FBE2DA;
+    background-color: #FDC383;
     color: white;
   }
 
@@ -177,11 +185,11 @@ line-height: 1.5rem;
 }
 
 a.aboutmereadmore:hover {
-    background-color: #FDC383;
+    background-color: #F3C9B1;
 }
 
 .aboutmereadmore a:hover {
-    color: #FDC383;  
+    color: white;  
 }
 
 
@@ -194,4 +202,8 @@ a.aboutmereadmore:hover {
 
 .readmore a {
     font-size: 20px;
+}
+
+.homeblogtitle h2 {
+    font-size: 2rem;
 }
