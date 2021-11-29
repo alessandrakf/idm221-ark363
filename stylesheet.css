@@ -92,7 +92,7 @@ a {
     background-color: #f9f9f9;
     overflow: hidden;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
  .topnav a {
@@ -276,4 +276,31 @@ a.aboutmereadmore:hover {
 .aboutmeheader {
     background-color: transparent;
     z-index: 9999;
+}
+
+
+.IGTitle {
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    margin-right: .6rem;
+    margin-left: .6rem;
+    padding: .25rem;
+    text-align: center;
+    background-color: #FBE2DA;
+    color: white;
+}
+
+.IGTitle a {
+    font-size: 20px;
+    font-family: Playfair;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: white;
+}
+
+.IGTitle h3 {
+    font-family: Playfair;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: white;
 }
