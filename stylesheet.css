@@ -99,9 +99,9 @@ a {
     width: 50%;
     margin: 0 8px;
     text-align: center;
-     color: #E39F76;
-     font-size: 1.25rem;
-     letter-spacing: .02rem;
+    color: #E39F76;
+    font-size: 1.25rem;
+    letter-spacing: .02rem;
  }
 
 .topnav a:hover {
@@ -114,6 +114,10 @@ a {
     color: #ED9F76;
     padding: 16px;
     border: none;
+}
+
+.dropbtn:hover {
+    color: #FDC383
 }
 
 .dropdown {
@@ -130,7 +134,7 @@ a {
  }
 
  .dropdown-content a {
-     color: #FDC383;
+     color: #F9A78F;
      padding: 12px 16px;
      text-decoration: none;
      display: block;
@@ -167,7 +171,7 @@ a {
 
 .aboutmehead {
     margin-top: .25rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     padding-top: .25rem;
     padding-bottom: .25rem;
     text-align: center;
@@ -180,6 +184,10 @@ a {
     font-family: Playfair;
     text-transform: uppercase;
     letter-spacing: .15rem;
+}
+
+.aboutmehead:hover {
+    background-color: #F9A78F;
 }
 
 .aboutmehead h3 {
@@ -221,7 +229,7 @@ line-height: 1.5rem;
     letter-spacing: .15rem;
 }
 
-a.aboutmereadmore:hover {
+.aboutmereadmore:hover {
     background-color: #F3C9B1;
 }
 
@@ -239,32 +247,45 @@ a.aboutmereadmore:hover {
 
 .readmore a {
     font-size: 20px;
+    color: #E39F76;
 }
 
 .homeblogtitle h2 {
     font-size: 2rem;
 }
 
+.homeblogtitle a:hover {
+    color: #FDC383;
+}
+
 .footer {
-    padding: 1rem 3.25rem 2rem 3.25rem;
+    padding: .5rem;
     background-color: #f2f2f2;
     margin-top: 1rem;
 }
 
-.footermenutitle h3 {
+.footernavbar {
     text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    bottom: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    padding: .5rem;
 }
 
-.footermenu {
+.footernavbar a {
+    float: left;
+    display: block;
+    color: #F9A78F;
     text-align: center;
-}
-
-.footermenu a {
-    width: 50%;
+    text-decoration: none;
+    font-size: .8rem;
     margin: 0 8px;
 } 
 
-.footermenu a:hover {
+.footernavbar a:hover {
     color: #FDC383;
 }
 
@@ -290,6 +311,10 @@ a.aboutmereadmore:hover {
     color: white;
 }
 
+.IGTitle:hover {
+    background-color: #F9A78F;
+}
+
 .IGTitle a {
     font-size: 20px;
     font-family: Playfair;
@@ -303,4 +328,14 @@ a.aboutmereadmore:hover {
     text-transform: uppercase;
     letter-spacing: .15rem;
     color: white;
+}
+
+.LondonTitle h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: Roboto;
+}
+
+.LondonTitle {
+    margin-bottom: 3rem;
 }
