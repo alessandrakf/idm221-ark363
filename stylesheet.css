@@ -79,7 +79,7 @@ a {
 
 .wrapper {
     margin: .4rem;
-    padding: 3rem;
+    padding: .5rem;
 }
 
 .logo {
@@ -281,9 +281,13 @@ line-height: 1.5rem;
     color: #F9A78F;
     text-align: center;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 0 8px;
 } 
+
+ul {
+    list-style-type: none;
+}
 
 .footernavbar a:hover {
     color: #FDC383;
