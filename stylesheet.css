@@ -343,3 +343,15 @@ ul {
 .LondonTitle {
     margin-bottom: 3rem;
 }
+
+/* Padding for the bottom of images in blog posts to help create sections for each blog section*/
+
+.lastimage {
+   padding-bottom: 1rem;
+}
+
+/* Padding for the bottom of text in blog posts when there are no images at the bottom to help create sections for each blog section*/
+
+.lasttext {
+    padding-bottom: 1rem;
+}
