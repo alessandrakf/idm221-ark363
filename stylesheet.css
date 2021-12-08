@@ -47,6 +47,7 @@ h1 {
     font-family: 'Amiri';
     font-size: 40px;
     line-height: 48px;
+    text-align: center;
 }
 
 h2 {
@@ -354,4 +355,11 @@ ul {
 
 .lasttext {
     padding-bottom: 1rem;
+}
+
+/*For blog post title and paragraph sections*/
+
+.container {
+    margin: 0rem .5rem;
+    padding: 0rem .6rem;
 }
