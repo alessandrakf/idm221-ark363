@@ -69,8 +69,8 @@ h4 {
 
 p {
     font-family: 'Amiri';
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 1.7rem;
 }
 
 a { 
@@ -208,7 +208,7 @@ a {
 
 .aboutmetext p {
 font-size: 20px;
-line-height: 1.5rem;
+line-height: 1.7rem;
 }
 
 
