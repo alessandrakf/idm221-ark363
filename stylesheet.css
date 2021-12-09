@@ -202,15 +202,20 @@ a {
     text-align: center;
 }
 
+/* For the Hi, I'm Alessandra! */
+
 .Hi {
     text-align: center;
 }
+
+/* For the About Me text on the homepage */
 
 .aboutmetext p {
 font-size: 20px;
 line-height: 1.7rem;
 }
 
+/* For the Read More button underneath the About Me section */
 
 .aboutmereadmore {
     margin-top: 1rem;
@@ -238,6 +243,7 @@ line-height: 1.7rem;
     color: white;  
 }
 
+/* For the regular read more buttons on the homepage and the London blog posts page */
 
 .readmore {
     margin-top: 1rem;
@@ -250,6 +256,8 @@ line-height: 1.7rem;
     font-size: 20px;
     color: #E39F76;
 }
+
+/* For the blog posts on the homepage */
 
 .homeblogtitle h2 {
     font-size: 2rem;
