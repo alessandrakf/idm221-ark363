@@ -83,41 +83,34 @@ a {
     padding: .5rem;
 }
 
+.topnav {
+    padding: .5rem 0rem 3rem 0rem;
+    margin: 1rem;
+}
+
 .logo {
-    position: relative;
+    /*position: relative;
     left: 4.5rem;
-    bottom: 1.5rem;
+    bottom: 1.5rem;*/
+    padding-left: 1rem;
     max-width: 15.625rem;
+    width: 70%;
+    float: left;
+    text-align: right;
 
 }
 
 .menuicon {
-    position: relative;
+    /*position: relative;
     top: .7rem;
-    left: 0.5rem;
+    left: 0.5rem;*/
+    text-align: left;
+    float: left;
+    max-height: 30px;
+    max-width: 30px;
     height: 30px;
-    width: 30px
-}
-
-.topnav {
-    background-color: #f9f9f9;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
- .topnav a {
     width: 50%;
-    margin: 0 8px;
-    text-align: center;
-    color: #E39F76;
-    font-size: 1.25rem;
-    letter-spacing: .02rem;
- }
-
-.topnav a:hover {
-     color: #FDC383;
- }
+}
 
 
 .readmore p {
@@ -239,7 +232,8 @@ line-height: 1.7rem;
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
+    text-align: left;
 }
 
 .footernavbar a {
@@ -262,34 +256,6 @@ ul {
 .aboutmeheader {
     background-color: transparent;
     z-index: 9999;
-}
-
-
-.IGTitle {
-    margin: .25rem .6rem 1rem .6rem;
-    padding: .25rem;
-    text-align: center;
-    background-color: #FBE2DA;
-    color: white;
-}
-
-.IGTitle:hover {
-    background-color: #F9A78F;
-}
-
-.IGTitle a {
-    font-size: 20px;
-    font-family: Playfair;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    color: white;
-}
-
-.IGTitle h3 {
-    font-family: Playfair;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    color: white;
 }
 
 .LondonTitle h2 {
