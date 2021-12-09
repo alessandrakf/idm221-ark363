@@ -92,9 +92,9 @@ a {
     /*position: relative;
     left: 4.5rem;
     bottom: 1.5rem;*/
-    padding-left: 1rem;
+    padding-left: 3rem;
     max-width: 15.625rem;
-    width: 70%;
+    width: 80%;
     float: left;
     text-align: right;
 
@@ -109,7 +109,7 @@ a {
     max-height: 30px;
     max-width: 30px;
     height: 30px;
-    width: 50%;
+    width: 20%;
 }
 
 
